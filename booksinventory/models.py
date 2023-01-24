@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Book(models.Model):
-    idbook = models.CharField(max_length=30)
+    idbook = models.BigAutoField(primary_key=True)
     nameofbook = models.CharField(max_length=60)
     authorofbook = models.CharField(max_length=60)
     priceofbook = models.CharField(max_length=20)
