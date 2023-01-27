@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e69b0ac4-e93d-4b7a-9f82-2cde5a3fe0a3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/booksinventory/Test/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/Test_Model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksinventory/Test/Test_Urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksinventory/Test/Test_View.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksinventory/Test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/booksinventory/Test/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksinventory/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/booksinventory/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/booksinventory/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/booksinventory/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/booksinventory/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/booksinventory/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +44,46 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_models.TestModels.test_book">
-    <configuration name="Python tests for booksinventory.tests.AnimalTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for Test_View.TestView">
+    <configuration name="Python tests for Test_Model.TestBook" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="DjangoCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/booksinventory" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;booksinventory.tests.AnimalTestCase&quot;" />
+      <option name="_new_target" value="&quot;Test_Model.TestBook&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Test_Urls.TestUrls" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DjangoCourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/booksinventory/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test_Urls.TestUrls&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for Test_View.TestView" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="DjangoCourse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/booksinventory/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Test_View.TestView&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -68,20 +98,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;booksinventory.tests.AnimalTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for booksinventory.tests.AnimalTestCase.test_animals_can_speak" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DjangoCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/booksinventory" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;booksinventory.tests.AnimalTestCase.test_animals_can_speak&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -99,20 +115,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.AnimalTestCase" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DjangoCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/booksinventory" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.AnimalTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests for tests.AnimalTestCase.test_animals_can_speak" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="DjangoCourse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,27 +129,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.AnimalTestCase.testsetUp" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="DjangoCourse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/booksinventory" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.AnimalTestCase.testsetUp&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for Test_View.TestView" />
+        <item itemvalue="Python tests.Python tests for Test_Urls.TestUrls" />
+        <item itemvalue="Python tests.Python tests for Test_Model.TestBook" />
         <item itemvalue="Python tests.Python tests for test_models.TestModels.test_book" />
         <item itemvalue="Python tests.Python tests for tests.AnimalTestCase.test_animals_can_speak" />
-        <item itemvalue="Python tests.Python tests for tests.AnimalTestCase" />
-        <item itemvalue="Python tests.Python tests for tests.AnimalTestCase.testsetUp" />
-        <item itemvalue="Python tests.Python tests for booksinventory.tests.AnimalTestCase" />
       </list>
     </recent_temporary>
   </component>
